@@ -1,4 +1,0 @@
-create or replace TABLE MY_TABLE (
-	COLUMN1 VARCHAR(16777216),
-	COLUMN2 NUMBER(38,0)
-);

@@ -1,8 +1,0 @@
-CREATE OR REPLACE PROCEDURE "CALCULATE_DISCOUNT"("PRICE" FLOAT)
-RETURNS FLOAT
-LANGUAGE JAVASCRIPT
-EXECUTE AS CALLER
-AS '
-var discount = 0.1; // 10% discount
-return price * (1 - discount);
-';
