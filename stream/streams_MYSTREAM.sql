@@ -1,1 +1,0 @@
-create or replace stream MYSTREAM on table MYTABLE;
