@@ -1,0 +1,4 @@
+create or replace TABLE PERMANENT_TABLE (
+	NAME VARCHAR(16777216),
+	AGE NUMBER(38,0)
+);
