@@ -1,0 +1,4 @@
+create or replace TABLE MYTABLE (
+	ID NUMBER(38,0),
+	TEXT VARCHAR(16777216)
+);
